@@ -613,3 +613,79 @@ html, body {
 .highlight, .highlight .w {
   background-color: $code-bg;
 }
+
+//custom css
+
+.toc-wrapper .logo
+{
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #f0f4f7;
+
+
+}
+.toc-wrapper
+{
+  background-color: white;
+  color: #666;
+  border-right: 1px solid #f0f4f7;
+}
+.toc-wrapper .toc-link.active-parent
+{
+  background-color: white;
+  color: #0099e5;
+}
+.toc-wrapper .toc-link
+{
+  background-color: white;
+  color: #666;
+}
+.toc-wrapper .toc-link.active
+{
+  background-color: white;
+  color: #0099e5;
+}
+.toc-wrapper > .search input
+{
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #f0f4f7;
+  color: #666;
+}
+.toc-wrapper .search-results
+{
+  color: #666;
+  background-color: white;
+}
+.page-wrapper
+{
+  background-color: white;
+}
+.toc-wrapper li
+{
+  color: #666;
+}
+.toc-wrapper .search-results a
+{
+  color: #666;
+}
+.toc-wrapper .toc-footer
+{
+  border: none;
+}
+.toc-wrapper > .search:before
+{
+  color: #666;
+  top: 38px;
+}
+.content h1
+{
+  border-bottom: 1px solid #f0f4f7;
+  border-top: 1px solid #f0f4f7;
+}
+.content h2
+{
+  border-top: 1px solid #f0f4f7;
+}
